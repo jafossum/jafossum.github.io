@@ -12,7 +12,7 @@ modified: 2015-12-09
 ## Allright. A Blog. Hmmm...
 
 <figure>
-	<img src="/images/RuRoc-Lofoten.jpg" alt="">
+	<img src="/images/RuRoc-Lofoten.JPG" alt="">
 	<center><figcaption>Me with my Darth Vader looking RuRoc helmet in Lofoten@2013</figcaption></center>
 </figure>
 
