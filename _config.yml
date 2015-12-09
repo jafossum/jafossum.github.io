@@ -1,41 +1,41 @@
-title:            Site Title
-description:      Describe your website here.
+title:            John's Geeky Blog
+description:      Geeky Blog Atempts
 disqus_shortname: hpstrtheme
 reading_time:     true
 words_per_minute: 200
-# Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
+# Your site's domain goes here (eg: //jafossum.github.io, http://yourdomain.com, etc)
 # When testing locally leave blank or use http://localhost:4000
-url:
+url: # jafossum.github.io
 
 # Owner/author information
 owner:
-  name:           Your Name
+  name:           John A. Fossum
   avatar:         avatar.jpg
-  bio:            "Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice."
-  email:          you@email.com
+  bio:            "My ambitious atempts on starting some geeky projects at home and actually Blog (!!!!) about it."
+  email:          fossumct@gmail.com
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        
-  facebook:       
-  github:         
-  stackexchange:  
-  linkedin:       
-  instagram:      
-  flickr:         
-  tumblr:         
+  #twitter:        
+  facebook: john.a.fossum       
+  github: jafossum         
+  #stackexchange:  
+  linkedin: jafossum
+  #instagram:      
+  #flickr:         
+  #tumblr:         
   # google plus id, include the '+', eg +mmistakes
-  google_plus:    +yourid
+  google_plus:    +JohnAFossum
 
 # Background image to be tiled on all pages
 background: 
 
 # Analytics and webmaster tools stuff goes here
-google_analytics:   
-google_verify:      
+#google_analytics:   
+#google_verify:      
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:         
+#bing_verify:         
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
+#timezone:    America/New_York
 future:      true
 highlighter: pygments
 markdown:    kramdown
