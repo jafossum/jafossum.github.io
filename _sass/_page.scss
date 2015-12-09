@@ -80,7 +80,7 @@ body {
 		font-weight: 700;
 		margin: 10px 60px;
 		color: $white;
-		text-shadow: 1px 1px 4px rgba($base-color,0.6);
+		text-shadow: 1px 1px 4px rgba($greentermnial,0.6);
 		a {
 			color: $white;
 		}
@@ -89,7 +89,7 @@ body {
 	}
 	h2 {
 		margin: 0;
-		color: $white;
+		color: $greentermnial;
 		text-transform: uppercase;
 		@media #{$medium} {
 			a {
@@ -98,7 +98,7 @@ body {
 		}
 	}
 	p {
-		color: $white;
+		color: $greentermnial;
 	}
 }
 .entry-image {
@@ -137,7 +137,7 @@ body {
 	margin: 0 auto;
 	max-width: 440px;
 	padding: 10px 15px;
-	background-color: rgba($base-color,0.5);
+	background-color: rgba($greentermnial,0.5);
 	color: $white;
 	@include font-rem(12);
 	text-align: right;
