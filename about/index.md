@@ -1,34 +1,40 @@
 ---
 layout: page
-title: About the Jekyll Theme
+title: About Me
 image:
-  feature: abstract-5.jpg
-  credit: dargadgetz
-  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
+  feature: Test_geek_image.png
+  credit: gentside
+  creditlink: http://www.gentside.com/geek/wallpaper
 comments: false
-modified: 2014-12-24
+modified: 2015-12-09
 ---
 
-They say three times the charm, so here is another free responsive Jekyll blog theme for you. I've learned a ton since open sourcing my first two themes [on Github](http://github.com/mmistakes), and wanted to try a few new things this time around. 
+## Allright. A Blog. Hmmm...
 
-If you've used any of [my other themes](http://mademistakes.com/work/jekyll-themes/) most of this should be familiar territory...
+<figure>
+	<img src="/images/RuRoc-Lofoten.jpg" alt="">
+	<center><figcaption>Me with my Darth Vader looking RuRoc helmet in Lofoten@2013</figcaption></center>
+</figure>
 
-## What HPSTR brings to the table:
+### This was not really the plan, but here we go.
 
-* Responsive templates for post, page, and post index `_layouts`. Looks great on mobile, tablet, and desktop devices.
-* Gracefully degrads in older browsers. Compatible with Internet Explorer 8+ and all modern browsers.  
-* Modern and minimal design.
-* Sweet animated menu.
-* Background image support.
-* Readable typography to make your words shine.
-* Support for large images to call out your favorite posts.
-* Built-in support for Sass courtesy of Jekyll 2.x.
-* Optional [Disqus](http://disqus.com) comments.
-* Simple and clear permalink structure[^1].
-* [Open Graph](https://developers.facebook.com/docs/opengraph/) and [Twitter Cards](https://dev.twitter.com/docs/cards) support for a better social sharing experience.
-* Simple [custom 404 page]({{ site.url }}/404.html) to get you started.
-* Stylesheets for Pygments and Coderay [syntax highlighting]({{ site.url }}/code-highlighting-post/) to make your code examples look snazzy.
+My name is John A. Fossum, and I live in Trondheim, Norway together with
+my girlfriend and our two kids. But since this is suposed to be kind of a geeky blog, lets get to it...
 
-<div markdown="0"><a href="{{ site.url }}/theme-setup/" class="btn btn-info">Theme Setup</a> <a href="https://github.com/mmistakes/hpstr-jekyll-theme" class="btn btn-success">Download HPSTR</a></div>
+For the last few years I have been talking about
+starting up my own quad copter drone project using Arduino, RaspberryPi and my own control algorithms.
 
-[^1]: Example: *domain.com/category-name/post-title*
+And this is where the whole story starts.
+
+I have a M.Sc in Cybernetics from NTNU un Trondheim Norway, and have a broad experience in developing
+various industrial controlsystems ranging from low level PLC programmming, to high level systems developed
+mainly in Python, C# and ASP.Net among other things.
+
+So why this drone idea?
+
+from my Cybernetics degree I have an extensive theoretical base for putting together the physical mathematical
+models for understanding and controlloing differnet physical systems, such as a drone.
+The only problem is that I have never utilized this knowlegde in my professional life, and because of this
+all this knowlege seems lost... So the solution seems to be getting into this on my own spare time.
+
+So here we go....
