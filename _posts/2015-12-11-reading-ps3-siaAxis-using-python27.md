@@ -10,13 +10,12 @@ tags: [PS3, Remote, SixAxis, Python, Linux, Arduino, RaspberryPi]
 #  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 ---
 
-
 I have been thinking about a remote controlled drone project for quite some time.
 Together with this I also have a small Arduino controlled car which I bought to get
 started from [DealExtreme](http://www.dx.com/).
 
 The problem with these remote controlled projects has always been getting a good
-remote control for these projects. My plan has always been **NOT GETTING** a RC remote.
+remote control! My plan has always been **NOT GETTING** a RC remote.
 So there must be a different way!
 
 How about using my PS3 SixAxis controller for this?
@@ -133,9 +132,13 @@ with open(path, 'r') as filestream:
     print signals
 {% endhighlight %}
 
-The resulting printout of this somple function will be a 27 char long list of analog values
-according to the table shown above. The Listvalues will only be updated when the actual signal is changing
-from the PS3 remote itself.
+The resulting printout of this simple function will be a 27 char long list of analog values
+according to the table shown above. (All values have been normalized so that center stick,
+or no button press will have the default value 0).
+
+The List values will only be updated when the actual signal is changing
+from the PS3 remote itself (All signals show up on first run, so the list will allways be complete
+after initiating).
 
 This is still a work in progress, but I will make a python package for this in the future and host
 it on [GitHub](https://github.com/jafossum/)
