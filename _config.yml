@@ -5,7 +5,7 @@ reading_time:     true
 words_per_minute: 200
 # Your site's domain goes here (eg: //jafossum.github.io, http://yourdomain.com, etc)
 # When testing locally leave blank or use http://localhost:4000
-url: 
+url: http://jafossum.github.io
 
 # Owner/author information
 owner:
@@ -14,16 +14,18 @@ owner:
   bio:            "My ambitious atempts on starting some geeky projects at home and actually Blog (!!!!) about it."
   email:          fossumct@gmail.com
   # Social networking links used in footer. Update and remove as you like.
-  #twitter:        
+  twitter:        
   facebook: john.a.fossum       
   github: jafossum         
-  #stackexchange:  
+  stackexchange:  
   linkedin: jafossum
-  #instagram:      
-  #flickr:         
-  #tumblr:         
+  instagram:      
+  flickr:         
+  tumblr:         
   # google plus id, include the '+', eg +mmistakes
   google_plus:    +JohnAFossum
+  # Only needs a value. No matter what to activate RSS.
+  rss_feed: True
 
 # Background image to be tiled on all pages
 background: 
