@@ -44,7 +44,8 @@ Or even better: Using the symlink so that the device number does not matter.
 $ /dev/input/by-id/usb-Sony_PLAYSTATION_R_3_Controller-joystick
 ```
 
-This will work on most Linux systems, and has been tested on Ubuntu and RasperyPi (Raspbian)
+This will work on most Linux systems, and has been tested on Ubuntu and RasperyPi (Raspbian).
+Not working in OS X
 
 ### Reading binary data from the device
 
@@ -109,14 +110,19 @@ When reading from any file or device it is importsnt that you are able to
 cleanly close the file or device after use. python has a nice solution to this using the keyword *with()*
 
 {% highlight python %}
+from binascii import hexlify
+
 path = "/dev/input/by-id/usb-Sony_PLAYSTATION_R_3_Controller-joystick"
+
+sdata = []
+num = []
+
 with open(path, 'r') as filestream:
 
     signals = [0]*27
 
     while True:
-        start = time()
-        read_data = f.read(1)
+        read_data = filestream.read(1)
         sdata += [hexlify(read_data)]
 
     if len(sdata) == 8:
@@ -124,7 +130,7 @@ with open(path, 'r') as filestream:
         # Analog button signals
         if (int(sdata[7], 16) > 3) and (int(sdata[5], 16) != 0):
             signals[int(sdata[7], 16)] = int(sdata[5], 16) ^ 0x80
-        
+
         # Stick Signals
         elif(int(sdata[7], 16) <= 3):
             signals[int(sdata[7], 16)] = (int(sdata[5], 16) ^ 0x80) - 128
