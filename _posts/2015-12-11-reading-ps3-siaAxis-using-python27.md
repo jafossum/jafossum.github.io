@@ -21,7 +21,7 @@ So there must be a different way!
 How about using my PS3 SixAxis controller for this?
 
 <figure>
-	<img src="/images/PlayStation3-Sixaxis.png" alt="">
+	<center><img src="/images/PlayStation3-Sixaxis.png" alt=""></center>
 	<center> <figcaption>PlayStation PS3 SixAxis Controller</figcaption></center>
 </figure>
 
