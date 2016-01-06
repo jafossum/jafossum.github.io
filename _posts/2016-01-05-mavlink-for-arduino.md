@@ -2,7 +2,7 @@
 layout: post
 title: Getting started with MAVLink for Arduino
 description: "How to get started with MAVLink using Convenience Functions on Arduino"
-modified: 2016-01-05
+modified: 2016-01-06
 tags: [Arduino, C++, MAVLink]
 #image:
 #  feature: abstract-3.jpg
@@ -45,14 +45,14 @@ called minimal.xml. Copying the contents of minimal.xml into JAF_QuadProject.xml
 After running mavgenerate.py directly from the project root folder i get a GUI with simple options.
 
 <figure>
-	<center><img src="/images/mavgenerate.png" alt="" height="349" width="201"></center>
+	<center><img src="/images/mavgenerate.png" alt="" width="349" height="201"></center>
 	<center> <figcaption>Mavgenerate.py</figcaption></center>
 </figure>
 
 This generator will create the necessary .h files for using MAVLink on the Arduino
 
 <figure>
-	<center><img src="/images/mavlink_treestructure.png" alt="" height="394" width="265"></center>
+	<center><img src="/images/mavlink_treestructure.png" alt="" width="394" height="265" ></center>
 	<center> <figcaption>Tree filestructure structure generated from mavgen.py</figcaption></center>
 </figure>
 
@@ -298,7 +298,7 @@ class you are free to leave the definition in the .h file and implement the clas
 Here is a picture of the completed file structure after putting it all together. (I used [VisualMicro](http://www.visualmicro.com/) to create this sketch)
 
 <figure>
-	<center><img src="/images/mavlink_tree_complete.png" alt="" height="300" width="291"></center>
+	<center><img src="/images/mavlink_tree_complete.png" alt="" width="291" height="300"></center>
 	<center> <figcaption>Working MAVLink tree-structure for Arduino</figcaption></center>
 </figure>
 
